@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+body{
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.name_heading{
+    color: black;
+    position: relative;
+    top: 5%;
+    left: 3%;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+}
+
+ul.horizontal_list li{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.horizontal_list{
+    position: relative;
+    top: -40%;
+    left: 60%
+}
+
+.first_container{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 14%;
+    background-image: url("background_gradient.jpg");
+}
+
+.name_heading1{
+    font-family: 'Roboto', sans-serif;
+    color: goldenrod;
+    position: relative;
+    top: 8%;
+    left: 5%;
+}
+
+.name_heading2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: relative;
+    top: 8.5%;
+    left: 5%;
+}
+
+.dream_heading{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+
+.btn1{
+    border: none; 
+    color: white; 
+    padding: 14px 28px;
+    cursor: pointer;
+    position: absolute;
+    top: 63%;
+    left: 5%;
+    font-family: 'Roboto', sans-serif; 
+    border-radius: 25px;
+  }
+
+  .btn2{
+    border: none; 
+    color: white; 
+    padding: 14px 28px;
+    cursor: pointer;
+    position: absolute;
+    top: 63%;
+    left: 14%;
+    font-family: 'Roboto', sans-serif; 
+    border-radius: 25px;
+  }
+
+
+.warning {background-color: #ff9800;} 
+.warning:hover {background: #e68a00;}
+ 
+.success {background-color: #04AA6D;}
+.success:hover {background-color: #46a049;}
+
+.my_pic1{
+    position: relative;
+    top: -43%;
+    left: 60%;
+    height: 380px;
+    width: 400px;
+}
+
+.about_div{
+    background-color: white;
+    height: 650px;
+    width: 800px;
+    position: absolute;
+    top: 78%;
+    left: 25%;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+}
+
+.about_heading{
+    font-family: 'Roboto', sans-serif;
+    color: green;
+    position: relative;
+    top: 3%;
+    left: 40%;
+    text-decoration: underline;
+}
+
+.info_para1{
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: 15%;
+    left: 55%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info_para2{
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top: 20%;
+    left: 55%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about_pic{
+    position: relative;
+    top: -30%;
+    left: 5%;
+    height: 320px;
+    width: 370px;
+}
+
+.languages_div{
+    height: 150px;
+    width: 400px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    position: relative;
+    top: -20%;
+    left: 25%;
+}
+
+.languages_div:hover{
+    background-color: cornsilk;
+}
+
+ul.languages_list li{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.languages_list{
+    position: relative;
+    top: 10%;
+    left: 2%
+}
+
+.html{
+    height: 50px;
+    width: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+.html:hover{
+    transform: scale(1.150 );
+}
+
+.css{
+    height: 50px;
+    width: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+.css{
+    height: 50px;
+    width: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+.css:hover{
+    transform: scale(1.150 );
+}
+
+.javascript{
+    height: 50px;
+    width: 70px;
+    transition: 0.2s ease-in-out;
+}
+
+.javascript:hover{
+    transform: scale(1.150 );
+}
+
+.github{
+    height: 50px;
+    width: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+
+.github:hover{
+    transform: scale(1.150 );
+}
+
+.react{
+    height: 50px;
+    width: 80px;
+    transition: 0.2s ease-in-out;
+}
+
+
+.react:hover{
+    transform: scale(1.150 );
+}
+
+.languages_heading{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 4%;
+    left: 3%;
+}
+
+.language_pic{
+    position: relative;
+    top: -25%;
+    left: 20%;
+}
+
+.portfolio_div{
+    background-color: white;
+    height: 1100px;
+    width: 1000px;
+    position: absolute;
+    top: 180%;
+    left: 20%;
+    border-radius: 25px;
+}
+
+.portfolio_heading{
+    position: relative;
+    top: 3%;
+    left: 39%;
+    font-family: 'Cinzel', serif;
+    color: black;
+}
+
+.first_image{
+    position: relative;
+    top: 5%;
+}
+
+
+.second_image{
+    position: relative;
+    top: 10%;
+}
+
+.third_image{
+    position: relative;
+    top: -50%;
+    left: 57%;
+}
+
+.fourth_image{
+    position: relative;
+    top: -50%;
+    left: 57%;
+}
+
+.fifth_image{
+    position: relative;
+    top: -45%;
+    left: 30%;
+}
+
+.resume_div{
+    background-color: white;
+    height: 900px;
+    width: 1000px;
+    position: absolute;
+    top: 340%;
+    left: 20%;
+    border-radius: 25px;    
+}
+
+.resume_heading{
+    position: relative;
+    top: 3%;
+    left: 44%;
+    font-family: 'Cinzel', serif;
+    color: black;
+}
+
+
+.work_experience{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 5%;   
+}
+
+.underline_1{
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    color: gray;
+}
+
+.work_list1{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    position: absolute;
+    top: 28%;
+    left: 1%;
+}
+
+.work_list2{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.work_list3{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.button_list1{
+    position: absolute;
+    top: 26%;
+    left: 40%;
+    list-style-type: none;
+}
+
+.yellow_btn{
+    border: none; 
+    color: white; 
+    padding: 14px 28px;
+    cursor: pointer;
+    position: absolute;
+    top: 63%;
+    left: 5%;
+    font-family: 'Roboto', sans-serif; 
+    border-radius: 25px;
+    width: 120px;
+    cursor: default;
+}
+
+.work_exp{
+    position: absolute;
+    top: 17%;
+    left: 65%;
+    height: 300px;
+    width: 300px;
+}
+
+.button_list2{
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    list-style-type: none;
+}
+
+
+.warning {background-color: #ff9800;} 
+.warning:hover {background: #e68a00;}
+
+.education_head{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    position: absolute;
+    top: 55%;
+    left: 5%;   
+}
+
+.underline_2{
+    position: absolute;
+    top: 56%;
+    left: 5%;
+    color: gray;
+}
+
+.edu_list1{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    position: absolute;
+    top: 68%;
+    left: 1%;
+}
+
+.edu_list2{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.button_list3{
+    position: absolute;
+    top: 68%;
+    left: 40%;
+    list-style-type: none;   
+}
+
+.education_img{
+    position: absolute;
+    top: 64%;
+    left: 65%;
+    height: 300px;
+    width: 300px;
+}
+
+.people_div{
+    background-color: white;
+    height: 700px;
+    width: 1000px;
+    position: absolute;
+    top: 480%;
+    left: 20%;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+}
+
+.people_heading{
+    position: relative;
+    top: 3%;
+    left: 29%;
+    font-family: 'Cinzel', serif;
+    color: black;
+}
+
+.first_person{
+    background-color: whitesmoke;
+    height: 400px;
+    width: 250px;
+    position: relative;
+    top: 12%;
+    left: 5%;
+    border-radius: 25px;
+}
+
+.first_random{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.elizabeth{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 27%;
+}
+
+.lorem_text{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    position: relative;
+    top: 70%;
+    left: 6%;
+}
+
+.second_person{
+    background-color: whitesmoke;
+    height: 400px;
+    width: 250px;
+    position: absolute;
+    top: 24.5%;
+    left: 37%;
+    border-radius: 25px;
+}
+
+.second_random{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.alberto{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 24%;
+}
+
+.third_person{
+    background-color: whitesmoke;
+    height: 400px;
+    width: 250px;
+    position: absolute;
+    top: 24.5%;
+    left: 69%;
+    border-radius: 25px;
+}
+
+.third_random{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 10%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.alex{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 17%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact{
+    background-color: white;
+    height: 700px;
+    width: 1000px;
+    position: absolute;
+    top: 590%;
+    left: 20%;
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+}
+
+.contact_heading{
+    position: relative;
+    top: 3%;
+    left: 12%;
+    font-family: 'Cinzel', serif;
+    color: black;
+}
+
+.connect_heading2{
+    position: relative;
+    top: -137%;
+    left: 63%;
+    font-family: 'Cinzel', serif;
+    color: black;
+}
+
+.connect_list2{
+    list-style-type: none;
+    position: relative;
+    top: -128%;
+    left: 61%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+.contact_pic{
+    height: 170px;
+    width: 100px;
+}
+
+.footer{
+    position: absolute;
+    top: 730%;
+    left: 0%;
+    width: 100%;
+    height: 100px;
+    background-color: blanchedalmond;
+}
+
+.footer_para{
+    position: relative;
+    top: 13%;
+    left: 40%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+a:hover{
+    color:goldenrod
+}
+
+#img1{
+    transition: 0.3s ease-in-out;
+}
+
+#img1:hover{
+    transform: scale(1.125);
+}
+
+#img2{
+    transition: 0.3s ease-in-out;
+}
+
+#img2:hover{
+    transform: scale(1.125);
+}
+
+#img3{
+    transition: 0.3s ease-in-out;
+
+}
+
+#img3:hover{
+    transform: scale(1.125);
+}
+
+#img4{
+    transition: 0.3s ease-in-out;
+}
+
+#img4:hover{
+    transform: scale(1.125);
+}
+
+#img5{
+    transition: 0.3s ease-in-out;
+}
+
+#img5:hover{
+    transform: scale(1.125);
+}
+

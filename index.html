@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/jpeg" href="portfolio.ico">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+      input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=tel] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+    </style>
+  </head>
+
+  <body>
+   
+    <!--HEADER-->
+
+    <div class="header">
+
+      <h1 class="name_heading">Aryan Dev Shourie</h1>
+
+      <ul class="horizontal_list">
+        <li><a href="#home">Home</a></li>
+        &emsp;
+        <li><a href="#about">About</a></li>
+        &emsp;
+        <li><a href="#portfolio">Portfolio</a></li>
+        &emsp;
+        <li><a href="#resume">Resume</a></li>
+        &emsp;
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+    </div>
+
+    <!--First Container-->
+
+    <div id="home" class="first_container">
+      <h1 class="name_heading1">Hi, I am Aryan Dev Shourie.</h1>
+      <h1 class="name_heading2">A Front-End Developer.</h1>
+
+      <h3 class="dream_heading">Get ready to turn dreams to reality.</h3>
+
+      <button class="btn1 warning"><b>Hire Me</b></button>
+      <button class="btn2 success"><b>Get Resume</b></button>
+
+      <img src="aryan_pic.webp" alt="image" class="my_pic1">
+    </div>
+
+    <!--ABOUT ME-->
+
+    <div id="about" class="about_div">
+
+      <p class="info_para1">Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Voluptas facilis, obcaecati tempore <br>dolores ab ea vero labore, 
+        asperiores <br>soluta eligendi mollitia itaque! Aliquam explicabo <br>ab doloribus inventore maiores. Nam, iste.
+      </p>
+
+      <p class="info_para2">
+        Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Voluptas facilis, obcaecati tempore <br>dolores ab ea vero labore, 
+        asperiores <br>soluta eligendi mollitia itaque! Aliquam explicabo <br>ab doloribus inventore maiores. Nam, iste.
+      </p>
+
+      <img src="about_me.jpg" alt="image" class="about_pic">
+      
+      <div class="languages_div">
+          <h4 class="languages_heading">Languages/Library/Technology</h4>
+
+          <ul class="languages_list">
+            <li><img src="html_logo.jpg" alt="image" class="html"></li>
+            <li><img src="css_logo.png" alt="image" class="css"></li>
+            <li><img src="javascript_logo.png" alt="image" class="javascript"></li>
+            <li><img src="github_logo.png" alt="image" class="github"></li>
+            <li><img src="react_logo.jpg" alt="image" class="react"></li>
+          </ul>
+      </div>
+    </div>
+
+    <!--PORTFOLIO-->
+
+    <div id="portfolio" class="portfolio_div">
+      <h1 class="portfolio_heading">My Portfolio</h1>
+      
+      <div id="img1" class="first_image">
+        <img src="ss1.PNG" alt="image">
+      </div>
+      <div id="img2" class="second_image">
+        <img src="ss2.PNG" alt="image">
+      </div>
+      <div id="img3" class="third_image">
+        <img src="ss3.PNG" alt="image">
+      </div>
+      <div id="img4" class="fourth_image">
+        <img src="ss4.PNG" alt="image">
+      </div>
+      <div id="img5" class="fifth_image">
+        <img src="ss5.PNG" alt="image">
+      </div>
+    </div>
+
+    <!--RESUME-->
+
+    <div id="resume" class="resume_div">
+      <h1 class="resume_heading">Resume</h1>
+
+      <h2 class="work_experience">Work Experience</h2>
+      <h1 class="underline_1">_______________________________</h1>
+      
+      <ul class="work_list1">
+        <li><b>Senior Front End Developer - FULLTIME</b></li>
+        <br>
+        <ul class="work_list2">
+          <li><b>Facebook , Inc.</b></li>
+          <br>
+        </ul>
+        <br>
+        <li><b>Senior Front End Developer - FULLTIME</b></li>
+        <br>
+        <ul class="work_list3">
+          <li><b>Facebook , Inc.</b></li>
+        </ul>
+      </ul>
+
+      <ul class="button_list1">
+        <li><button class="yellow_btn warning"><b>2014-2020</b></button></li>
+      </ul>
+      <ul class="button_list2">
+        <li><button class="yellow_btn warning"><b>2010-2013</b></button></li>
+      </ul>
+
+      <img src="work_exp.jpg" alt="image" class="work_exp">
+
+      <h2 class="education_head">Education</h2>
+      <h1 class="underline_2">_______________________________</h1>
+
+      <ul class="edu_list1">
+        <li><b>Chitkara University</b></li>
+        <br>
+        <ul class="edu_list2">
+          <li><b>Master in Software Engineering</b></li>
+        </ul>
+      </ul>
+      <ul class="button_list3">
+        <li><button class="yellow_btn warning"><b>2008-2010</b></button></li>
+      </ul>
+
+      <img src="education.jpg" alt="image" class="education_img">
+
+    </div>
+
+    <!--PEOPLE SECTION-->
+
+    <div class="people_div">
+      <h1 class="people_heading">What people say about me</h1>
+
+      <div class="first_person">
+        <img src="random_1.jpg_large" alt="image" class="first_random">
+
+        <h3 class="elizabeth">Alberto Donko</h3>
+        
+        <p class="lorem_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos corrupti non quidem nesciunt et, cum pariatur ipsam adipisci eaque dolorum</p>
+
+      </div>
+
+      <div class="second_person">
+        <img src="random_2.jpg" alt="image" class="second_random">
+
+        <h3 class="alberto">Elizabeth Martin</h3>
+
+        <p class="lorem_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos corrupti non quidem nesciunt et, cum pariatur ipsam adipisci eaque dolorum</p>
+
+      </div>
+
+      <div class="third_person">
+        <img src="random_3.jpg" alt="image" class="third_random">
+
+        <h3 class="alex">Alexander Parkinson</h3>
+
+        <p class="lorem_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos corrupti non quidem nesciunt et, cum pariatur ipsam adipisci eaque dolorum</p>
+
+      </div>
+    </div>
+
+    <!--CONTACT SECTION-->
+
+    <div id="contact" class="contact">
+      <h1 class="contact_heading">Send me a message</h1>
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="column">
+
+            <img class="contact_pic" src="contact.webp" style="width:100%">
+
+          </div>
+
+          <div class="column">
+
+            <form>
+
+              <label style="font-family: 'Roboto', sans-serif;" for="fname"><b>First Name</b></label>
+              <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+              <label style="font-family: 'Roboto', sans-serif;" for="lname"><b>Last Name</b></label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label style="font-family: 'Roboto', sans-serif;" for="mobile"><b>Phone Number</b></label>
+              <input type="tel" id="phone" maxlength="10" id="phone" name="phone" placeholder="Your phone number..">
+
+              <label style="font-family: 'Roboto', sans-serif;" for="email"><b>Email</b></label>
+              <input type="email" id="email" name="email" placeholder="Your email..">
+
+              <label style="font-family: 'Roboto', sans-serif;" for="subject"><b>Any feedback</b></label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+
+              <input type="submit" value="Submit">
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <h1 class="connect_heading2">Connect with me</h1>
+
+      <ul class="connect_list2">
+
+        <li><a href="https://www.linkedin.com/in/aryandev-shourie-175025229/"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="40" width="40" /></a> <a style="text-decoration:underline;color:blue" href="https://www.linkedin.com/in/aryandev-shourie-175025229/"><br><b>LinkedIn - Aryandev Shourie</b></a></li>
+        &emsp;
+        <li><a href="https://www.instagram.com/aryan_shourie/"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="40" width="40" /></a> <a style="text-decoration:underline;color:blue" href="https://www.instagram.com/aryan_shourie/"><br><b>Instagram - aryan_shourie</b></a> </li>
+        &emsp;
+        <li><a href="https://www.facebook.com/aryandev.shourie/"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" height="40" width="40" /></a> <a style="text-decoration:underline;color:blue" href="https://www.facebook.com/aryandev.shourie/"><br><b>Facebook - Aryandev Shourie</b></a>  </li>
+        &emsp;
+        <li><li href="mailto:shouriearyandev@gmail.com"><img src="https://img.icons8.com/color/50/000000/gmail-new.png" height="50" width="50" /></li></a> <a style="text-decoration:underline;color:blue" href="mailto:shouriearyandev@gmail.com"><b>Gmail - Aryandev Shourie</b></a>  </li>
+     
+     </ul>
+      
+      
+    </div>
+
+    <!--FOOTER-->
+
+    <div class="footer">
+       <p class="footer_para">@ 2021 Aryan Dev Shourie. All rights reserved.</p>
+    </div>
+
+  </body>
+
+</html>
